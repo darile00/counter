@@ -24,6 +24,7 @@ body{
     .container{
         max-width: 50vw;
         margin: 2vh auto;
+        padding-top: 1.5vh;
         display: flex;
         justify-content: space-between;
         text-align: center;
@@ -35,15 +36,15 @@ body{
 
         h1{
             color: $color;
-            padding-top: 1vh;
+           padding-top: 1vh;
         }
 
         .gitIcon{
-            width: 3vw;
+            width: 2vw;
 
             img{
                width: 100%; 
-               margin-top: 1.5vh;
+               //margin-top: 1.5vh;
             }
         }
     }
@@ -72,11 +73,12 @@ body{
 
         .btn{
             width: 15vw;
-            height: 7vh;
+            height: 9vh;
             font-size: 5vh;
             background-color: $secondaryColor;
             color: $color;
             border: 2px solid;   
+            
         }
     }
 }
