@@ -1,0 +1,49 @@
+$bgColor: #293133;
+$color: #CCFF00;
+$secondaryColor: #178E8F;
+$font: 'Comfortaa', sans-serif;
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: $font;
+}
+a{
+    text-decoration: none;
+}
+
+body{
+    background-color: $bgColor;
+}
+
+.header{
+    border-bottom: solid 1.5vh $color;
+    
+    .container{
+        max-width: 50vw;
+        margin: 2vh auto;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+
+        .logo{
+            border: solid 3px $secondaryColor;
+            border-radius: 5px;
+            }
+
+        h1{
+            color: $color;
+            padding-top: 1vh;
+        }
+
+        .gitIcon{
+            width: 3vw;
+
+            img{
+               width: 100%; 
+               margin-top: 1.5vh;
+            }
+        }
+    }
+}
