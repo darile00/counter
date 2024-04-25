@@ -9,7 +9,7 @@
 
   <p align="center">
     This project is the pratical exam of the Javascript Basics start2impact University's course. <br />
-    The task was to create a "counter" application where the user could increase or decrease the visible number by pressing one of the buttons. Since I often use the pomodoro technique to study, I thought it would be more interesting, challenging and generally useful to create a timer instead of a simple counter.
+    The task was to create a "counter" application where the user could increase or decrease the visible number by pressing one of the buttons.
     <br />
     <br />
     <a href="https://counter-dc.netlify.app/">GO TO THE WEBSITE</a> 
