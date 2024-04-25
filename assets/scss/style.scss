@@ -61,7 +61,7 @@ body{
 
     .countOutput{
         color: $color;
-        font-size: 25vw;
+        font-size: 20vh;
     }
 
     .btnContainer{
@@ -101,6 +101,11 @@ body{
 
     .hub{
         max-width: 80vw;
+
+        .countOutput{
+            
+            font-size: 25vw;
+        }
 
         .btnContainer{
             .btn{
